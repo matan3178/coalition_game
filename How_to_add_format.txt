@@ -1,0 +1,11 @@
+Instruction for adding new agent format:
+
+1. The new format configuration file should contain a string-signature of the format, like the "NORMAL" string in the beginning of RoomComf.json
+2. Add new class which extends "Configuration" abstract class.
+3. If you need to add more fields to the "Configuration" abstract class, you can do this freely
+4. The constructor of the new class should parse the new configuration file according to the new format. The constructor should get as a parameter the number of players in the room, and get the appropriate raw configuration (an array of double values) from DAL.GetSingleRoomConfigurationForSize(num_of_playes), as can be seen in "NormalConfiguration.cs" or "NEConfiguration.cs"
+5. Add the new type of format to the "Type" enum
+6. Add the new type of format to the functions "createConfiguration" and "setTypeFromString" of the "ConfigurationType" class. The strings of the switch-case of the function "setTypeFromString" is the name from (1).
+7. add additional condition to the function "ResponseAsAi" in "CRoom" class. This function is responsible for the case where the agent is a responder. For example,  if the agent is NE-Agent, we accept only if item.Value.playerOffer >= room.Value.configuration.AiDevision[room.Value.currentRound][aiIndex]
+8. add additional condition to the function "PlayAi" in "CRoom" class. This function is responsible for the case which the agent is the proposer. For example, if the agent is NE-Agent, it will offer from room.Value.configuration.AiDevision[room.Value.currentRound].
+9. For the game to be played with the new format, the configuration file should be located in: C:\Sites\Coalition\RoomConf.json. This file is being loaded when the admin enters the "ManagementPanel" page.

@@ -1,0 +1,162 @@
+﻿<html>
+<head>
+    
+    <script type="text/javascript" src="js/Newcomer.js"></script>
+    <meta charset="windows-1255">
+    <title>Coalition Game</title>
+</head>
+<body>
+    <form id="form_answers" method="post">
+        <div class="center">
+            <p style="font-size: 50px; font-weight: bold; text-align: right;"><span size="18">בוחן</span></p>
+            <p dir="rtl" style="padding-left: 30px; text-align: right;">1. מהו סכום המשקולות הנדרש כדי להקים קואליציה?</p>
+            <p dir="rtl" style="text-align: right;">
+                <input id="q00" name="q0" value="1" onchange="changeEvent()" type="radio" /> פחות מ- 10&nbsp;<br />
+                <input id="q01" name="q0" value="2" onchange="changeEvent()" type="radio" /> שווה ל- 10&nbsp;<br />
+                <input id="q02" name="q0" value="3" onchange="changeEvent()" type="radio" /> גדול או שווה ל- 10&nbsp;<br />
+                <input id="q03" name="q0" value="4" onchange="changeEvent()" type="radio" /> כל סכום משקולות
+            </p>
+            <p dir="rtl" style="text-align: right;"></p>
+        </div>
+        <div style="text-align: right;">
+            <p dir="rtl" style="text-align: right;">2. על-מנת שקואליציה תהיה קואליציה מנצחת, כמה שחקנים צריכים לאשר אותה?</p>
+            <p dir="rtl" style="text-align: right;">
+                <input id="q10" name="q1" value="1" onchange="changeEvent()" type="radio" /> לפחות שחקן אחד. <br />
+                <input id="q11" name="q1" value="2" onchange="changeEvent()" type="radio" /> כל השחקנים אשר נבחרו על-ידי המציע.<br />
+                <input id="q12" name="q1" value="3" onchange="changeEvent()" type="radio" /> כל השחקנים (לא משנה אם הם נבחרו על-ידי המציע או לא).<br />
+                <input id="q13" name="q1" value="4" onchange="changeEvent()" type="radio" /> לפחות שחקן אחד שהמשקולת שלו גדולה מ- 5.<br/>
+            </p>
+            <p dir="rtl" style="text-align: right;"></p>
+        </div>
+
+        <div style="text-align: right;">
+            <p dir="rtl">3. בשאלה זו יש להתחייחס לתמונה שמתחת, המציע רוצה ללחוץ על סיום בניית הקואליציה. מה הבעיה בקואליצה שיצר (שמו-לב שהמשחק כולל 5 שחקנים)?</p>
+            <p dir="rtl" style="text-align: right;">
+                <input id="q20" name="q2" value="1" onchange="changeEvent()" type="radio" /> סכום המשקולות אינו גדול מ- 10.<br />
+                <input id="q21" name="q2" value="2" onchange="changeEvent()" type="radio" /> לא חולק כל הפרס. <br />
+                <input id="q22" name="q2" value="3" onchange="changeEvent()" type="radio" /> המציע לא הוסיף את עצמו לקואליציה.<br />
+                <input id="q23" name="q2" value="4" onchange="changeEvent()" type="radio" /> אף תשובה אינה נכונה, הקואליציה תקינה.
+            </p>
+            <p dir="rtl" style="text-align: right;"></p>
+            <div><img src="quizImages/e1.png" style="border: 1px solid black; border-radius: 5px; float: right;" id="img1" alt="image1" height="450" width="900" /></div>
+        </div>
+
+        <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><<br /><br /><br /><br /><br /><<br /><br />
+
+
+
+        <p style="text-align: right;"></p>
+        <p style="text-align: right;"><br /><br /></p>
+        <div>
+            <div style="text-align: right;">
+                <p dir="rtl">4. בשאלה זו יש להתחייחס לתמונה שמתחת, המציע רוצה ללחוץ על סיום בניית הקואליציה. מה הבעיה בקואליצה שיצר?</p>
+                <p dir="rtl" style="text-align: right;">
+                    <input id="q30" name="q3" value="1" onchange="changeEvent()" type="radio" /> סכום המשקולות אינו גדול מ- 10.<br />
+                    <input id="q31" name="q3" value="2" onchange="changeEvent()" type="radio" /> לא חולק כל הפרס. <br />
+                    <input id="q32" name="q3" value="3" onchange="changeEvent()" type="radio" />המציע לא הוסיף את עצמו לקואליציה.<br />
+                    <input id="q33" name="q3" value="4" onchange="changeEvent()" type="radio" /> כל התשובות לא נכונות. אין בעיה בקואליציה.
+                </p>
+            </div>
+            <div style="text-align: right;">
+                <div><img src="quizImages/e2.png" style="border: 1px solid black; border-radius: 5px; float: right;" id="img1" alt="image1" height="450" width="900" /></div>
+            </div>
+
+                <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br/><<br/><br/><br /><br /><br /><<br /><br /><br /><br />
+
+
+            <p dir="rtl" style="text-align: right;">5. מה הפרסים שיקבלו השחקנים לפי התשובות שלהם המוצגות בתמונה למטה?</p>
+            <p dir="rtl" style="text-align: right;">
+                <input id="q40" name="q4" value="1" onchange="changeEvent()" type="radio" />שחקון 1 (אתה) יקבל 40 סנטים, שחקנים 2 ו- 3 יקבלו 30 סנטים ושאר השחקנים לא יקבלו כלום.<br />
+                <input id="q41" name="q4" value="2" onchange="changeEvent()" type="radio" /> אתה תקבל 40 סנטים, שחקן מספר 2 יקבלו 30 סנטים ושאר השחקנים לא יקבלו כלום. <br />
+                <input id="q42" name="q4" value="3" onchange="changeEvent()" type="radio" /> כל שחקן יקבל 20 סנטים. <br />
+                <input id="q43" name="q4" value="4" onchange="changeEvent()" type="radio" /> אף אחד מהשחקנים לא יקבל פרס.
+            </p>
+            <p dir="rtl" style="text-align: right;"></p>
+            <div><img src="quizImages/e3.png" style="border: 1px solid black; border-radius: 5px; float: right;" id="img1" alt="image1" height="250" width="900" /></div>
+
+            <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+
+        </div>
+        <p><br /><br /><br /></p>
+        <div style="text-align: center;">
+            <input style="height: 70px; width: 80px;" id="submit_button" onclick="submitFunction(); return false;" disabled="disabled" value="Submit" type="submit" />
+        </div>
+        <p></p>
+        <div style="text-align: center;"></div>
+
+
+    </form>
+
+    <script>
+
+window.onload = function () {
+    ReadParams();
+	document.getElementById("form_answers").onsubmit = function () {
+	     return false; //prevent the default behavior of the submit event
+	}
+}
+    </script>
+
+    <script type="text/javascript">
+var q = new Array(5);
+for (var i = 0; i < q.length; i++) {
+	q[i] = new Array(4);
+}
+
+for (var i = 0; i < q.length; i++) {
+	for (var j = 0; j < q[i].length; j++) {
+		q[i][j] = document.getElementById("q"+i+""+j);
+	}
+}
+
+var form = document.getElementById("form_answers");
+var btn = document.getElementById("submit_button");
+
+
+form.onchange = function() {
+
+	var b = true;
+	for (var i = 0; i < q.length; i++) {
+		var b_temp = false;
+		for (var j = 0; j < q[i].length; j++) {
+			if (q[i][j].checked)
+				{
+					b_temp = true;
+					break;
+				}
+		}
+		if (b_temp == false)
+			{
+				b = false;
+				break;
+			}
+	}
+
+	 if  (b)
+	 {
+		 btn.disabled = false;
+	 }
+	 else
+	 {
+		 btn.disabled = true;
+	 }
+};
+
+
+function submitFunction() {
+	if (  (q[0][2].checked) && (q[1][1].checked) && (q[2][3].checked) && (q[3][1].checked) && (q[4][3].checked)  )
+	{
+	    window.location.assign('Main.aspx?workerId=' + workerId + '&hitId=' + hitId + '&assId=' + assignmentId)
+	}
+	else
+	{
+		alert("There is one or more mistakes, please try again")
+	}
+}
+    </script>
+
+    <div style="padding-bottom:24px;">
+    </div>
+
+</body>
+</html>

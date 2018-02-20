@@ -1,0 +1,7 @@
+{
+	"MaxWaitTime":500,
+	"MaxPlayedGames":5,
+	"TimeInvervalSeconds":10,
+	"ScoreIncrement":1
+}
+

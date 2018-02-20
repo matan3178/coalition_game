@@ -1,0 +1,19 @@
+NERoomConf:
+[
+	#players, => number of players
+	#rounds => number of rounds for the game
+	[players weight], => weight for each player (in the order of the players' index)
+	AI devision[#rounds][#players], => a devision for the AI player, the devision depends on the index of the AI player, (thus depends on the weight of the AI)
+	proposer-timeout, => the timeout for the proposer to propose
+	responder-timeout, => the timeout for the responder to respond
+]
+
+Table from Matlab:
+
+26.4467592592593	17.3611111111111	20.8333333333333	25	0
+20.6597222222222	47.9166666666667	37.5000000000000	25	0
+26.4467592592593	17.3611111111111	20.8333333333333	25	0
+26.4467592592593	17.3611111111111	20.8333333333333	25	0
+
+=> The output configuration:
+[4,  5,	6,8,2,2,  27,20,27,27,	18,48,18,18,	21,38,21,21,	25,25,25,25,	0,0,0,0,	30,20]

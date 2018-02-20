@@ -1,0 +1,47 @@
+RoomConf:
+[
+	#players, => number of players
+	[players weight], => weight for each player (in the order of the players' index)
+	AI devision[#players][#players], => a devision for the AI player, the devision depends on the index of the AI player, (thus depends on the weight of the AI)
+	AcceptnaceRateAi[#players], => for each index possible for the AI player, this array indicates what is the minimum offer it will accept
+	proposer-timeout, => the timeout for the proposer to propose
+	responder-timeout, => the timeout for the responder to respond
+	#round => number of rounds until game ends
+]
+
+EXCEL format:
+now time	current round	gameIndex (hashed)	number of players	index of the proposer	index of ai	player 0	player 1	player 2	weight 0	weight 1 	weight 2	devision for 0	devision for 1	devision for 2	decision 0	decision 1 	decision 2	timeout 1 	timeout2	timeout3
+
+
+
+NewRoomConf:
+[
+	#players, => number of players
+	#rounds => number of rounds for the game
+	[players weight], => weight for each player (in the order of the players' index)
+	AI devision[#rounds][#players], => a devision for the AI player, the devision depends on the index of the AI player, (thus depends on the weight of the AI)
+	proposer-timeout, => the timeout for the proposer to propose
+	responder-timeout, => the timeout for the responder to respond
+]
+
+
+26.4467592592593	17.3611111111111	20.8333333333333	25	0
+20.6597222222222	47.9166666666667	37.5000000000000	25	0
+26.4467592592593	17.3611111111111	20.8333333333333	25	0
+26.4467592592593	17.3611111111111	20.8333333333333	25	0
+
+=> [4,  5,	6,8,2,2,  27,20,27,27,	18,48,18,18,	21,38,21,21,	25,25,25,25,	0,0,0,0,	30,20]
+
+
+
+
+Example:
+[
+    [3	,2,4,6	,20,20,60, 0,50,50, 0,10,90		,20,50,80	,90,30,5],
+	[3	,1,1,9	,10,0,90	,0,10,90	,0,5,95		,5,5,90,	90,30,5],
+	[3,3,4,4,40,30,30,10,80,10,10,10,80,10,50,50,90,30,5],
+	[4	,3,4,4,4	,40,30,30,0		,10,80,10,10	,10,10,80,10	,10,50,50,10	,10,50,50,10	,30,20,5],
+	[5	,8,2,2,2,2	,90,10,0,0,0	,50,50,0,0,0,	50,0,50,0,0,	50,0,0,50,0,	50,0,0,0,50,	80,20,20,20,20	,90,30,5],
+	[5,6,4,2,2,2,60,40,0,0,0,40,60,0,0,0,40,0,50,10,0,40,0,10,50,0,40,0,10,0,50,50,10,10,10,10,90,30,5],
+	[5,9,1,1,1,1,95,5,0,0,0,60,40,0,0,0,60,0,40,0,0,60,0,0,40,0,60,0,0,0,40,90,10,10,10,10,90,30,5]
+]

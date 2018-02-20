@@ -1,0 +1,80 @@
+C:\Users\Sagi\Dropbox\Projects\Coalition\bin\roslyn\csc.exe
+C:\Users\Sagi\Dropbox\Projects\Coalition\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Sagi\Dropbox\Projects\Coalition\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Sagi\Dropbox\Projects\Coalition\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Sagi\Dropbox\Projects\Coalition\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Sagi\Dropbox\Projects\Coalition\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Sagi\Dropbox\Projects\Coalition\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Sagi\Dropbox\Projects\Coalition\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Sagi\Dropbox\Projects\Coalition\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Sagi\Dropbox\Projects\Coalition\bin\roslyn\vbc.exe
+C:\Users\Sagi\Dropbox\Projects\Coalition\bin\roslyn\VBCSCompiler.exe
+C:\Users\Sagi\Dropbox\Projects\Coalition\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Sagi\Dropbox\Projects\Coalition\bin\Coalition.dll.config
+C:\Users\Sagi\Dropbox\Projects\Coalition\bin\Coalition.dll
+C:\Users\Sagi\Dropbox\Projects\Coalition\bin\Coalition.pdb
+C:\Users\Sagi\Dropbox\Projects\Coalition\obj\Release\Coalition.dll
+C:\Users\Sagi\Dropbox\Projects\Coalition\obj\Release\Coalition.pdb
+C:\Users\Sagi\Dropbox\Projects\Coalition\obj\Release\Coalition.csprojResolveAssemblyReference.cache
+C:\Users\Sagi\Dropbox\Projects\Coalition\obj\Release\Coalition.Properties.Resources.resources
+C:\Users\Sagi\Dropbox\Projects\Coalition\obj\Release\Coalition.csproj.GenerateResource.Cache
+C:\Users\User\Dropbox (BGU)\Coalition Game - code_rami\Coalition\bin\roslyn\csc.exe
+C:\Users\User\Dropbox (BGU)\Coalition Game - code_rami\Coalition\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\User\Dropbox (BGU)\Coalition Game - code_rami\Coalition\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\User\Dropbox (BGU)\Coalition Game - code_rami\Coalition\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\User\Dropbox (BGU)\Coalition Game - code_rami\Coalition\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\User\Dropbox (BGU)\Coalition Game - code_rami\Coalition\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\User\Dropbox (BGU)\Coalition Game - code_rami\Coalition\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\User\Dropbox (BGU)\Coalition Game - code_rami\Coalition\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\User\Dropbox (BGU)\Coalition Game - code_rami\Coalition\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\User\Dropbox (BGU)\Coalition Game - code_rami\Coalition\bin\roslyn\vbc.exe
+C:\Users\User\Dropbox (BGU)\Coalition Game - code_rami\Coalition\bin\roslyn\VBCSCompiler.exe
+C:\Users\User\Dropbox (BGU)\Coalition Game - code_rami\Coalition\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\User\Dropbox (BGU)\Coalition Game - code_rami\Coalition\bin\Coalition.dll.config
+C:\Users\User\Dropbox (BGU)\Coalition Game - code_rami\Coalition\bin\Coalition.dll
+C:\Users\User\Dropbox (BGU)\Coalition Game - code_rami\Coalition\bin\Coalition.pdb
+C:\Users\User\Dropbox (BGU)\Coalition Game - code_rami\Coalition\obj\Release\Coalition.csprojResolveAssemblyReference.cache
+C:\Users\User\Dropbox (BGU)\Coalition Game - code_rami\Coalition\obj\Release\Coalition.Properties.Resources.resources
+C:\Users\User\Dropbox (BGU)\Coalition Game - code_rami\Coalition\obj\Release\Coalition.csproj.GenerateResource.Cache
+C:\Users\User\Dropbox (BGU)\Coalition Game - code_rami\Coalition\obj\Release\Coalition.dll
+C:\Users\User\Dropbox (BGU)\Coalition Game - code_rami\Coalition\obj\Release\Coalition.pdb
+D:\Projects\Coalition2\Coalition\bin\roslyn\csc.exe
+D:\Projects\Coalition2\Coalition\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Projects\Coalition2\Coalition\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Projects\Coalition2\Coalition\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Projects\Coalition2\Coalition\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Projects\Coalition2\Coalition\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Projects\Coalition2\Coalition\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Projects\Coalition2\Coalition\bin\roslyn\System.Collections.Immutable.dll
+D:\Projects\Coalition2\Coalition\bin\roslyn\System.Reflection.Metadata.dll
+D:\Projects\Coalition2\Coalition\bin\roslyn\vbc.exe
+D:\Projects\Coalition2\Coalition\bin\roslyn\VBCSCompiler.exe
+D:\Projects\Coalition2\Coalition\bin\roslyn\VBCSCompiler.exe.config
+D:\Projects\Coalition2\Coalition\bin\Coalition.dll.config
+D:\Projects\Coalition2\Coalition\bin\Coalition.dll
+D:\Projects\Coalition2\Coalition\bin\Coalition.pdb
+D:\Projects\Coalition2\Coalition\obj\Release\Coalition.csprojResolveAssemblyReference.cache
+D:\Projects\Coalition2\Coalition\obj\Release\Coalition.Properties.Resources.resources
+D:\Projects\Coalition2\Coalition\obj\Release\Coalition.csproj.GenerateResource.Cache
+D:\Projects\Coalition2\Coalition\obj\Release\Coalition.dll
+D:\Projects\Coalition2\Coalition\obj\Release\Coalition.pdb
+C:\Users\Moshik\Dropbox (BGU)\Coalition Game - code_rami (shared)\Coalition\bin\roslyn\csc.exe
+C:\Users\Moshik\Dropbox (BGU)\Coalition Game - code_rami (shared)\Coalition\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Moshik\Dropbox (BGU)\Coalition Game - code_rami (shared)\Coalition\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Moshik\Dropbox (BGU)\Coalition Game - code_rami (shared)\Coalition\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Moshik\Dropbox (BGU)\Coalition Game - code_rami (shared)\Coalition\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Moshik\Dropbox (BGU)\Coalition Game - code_rami (shared)\Coalition\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Moshik\Dropbox (BGU)\Coalition Game - code_rami (shared)\Coalition\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Moshik\Dropbox (BGU)\Coalition Game - code_rami (shared)\Coalition\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Moshik\Dropbox (BGU)\Coalition Game - code_rami (shared)\Coalition\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Moshik\Dropbox (BGU)\Coalition Game - code_rami (shared)\Coalition\bin\roslyn\vbc.exe
+C:\Users\Moshik\Dropbox (BGU)\Coalition Game - code_rami (shared)\Coalition\bin\roslyn\VBCSCompiler.exe
+C:\Users\Moshik\Dropbox (BGU)\Coalition Game - code_rami (shared)\Coalition\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Moshik\Dropbox (BGU)\Coalition Game - code_rami (shared)\Coalition\bin\Coalition.dll.config
+C:\Users\Moshik\Dropbox (BGU)\Coalition Game - code_rami (shared)\Coalition\bin\Coalition.dll
+C:\Users\Moshik\Dropbox (BGU)\Coalition Game - code_rami (shared)\Coalition\bin\Coalition.pdb
+C:\Users\Moshik\Dropbox (BGU)\Coalition Game - code_rami (shared)\Coalition\obj\Release\Coalition.csprojResolveAssemblyReference.cache
+C:\Users\Moshik\Dropbox (BGU)\Coalition Game - code_rami (shared)\Coalition\obj\Release\Coalition.Properties.Resources.resources
+C:\Users\Moshik\Dropbox (BGU)\Coalition Game - code_rami (shared)\Coalition\obj\Release\Coalition.csproj.GenerateResource.Cache
+C:\Users\Moshik\Dropbox (BGU)\Coalition Game - code_rami (shared)\Coalition\obj\Release\Coalition.dll
+C:\Users\Moshik\Dropbox (BGU)\Coalition Game - code_rami (shared)\Coalition\obj\Release\Coalition.pdb
